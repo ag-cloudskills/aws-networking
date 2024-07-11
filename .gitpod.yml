@@ -1,7 +1,7 @@
 tasks:
   - name: prereq
     before: |
-      source ./bin/installtfcli
+      source /workspace/aws-networking/bin/installtf
       source ./bin/tfalias
     #  source ./bin/installawscli
 vscode:
