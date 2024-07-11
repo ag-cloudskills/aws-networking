@@ -2,8 +2,8 @@ tasks:
   - name: prereq
     before: |
       source /workspace/aws-networking/bin/installtf
-      source ./bin/tfalias
-    #  source ./bin/installawscli
+      source /workspace/aws-networking/bin/tfalias
+      source /workspace/aws-networking/bin/installawscli
 vscode:
   extensions:
     - amazonwebservices.aws-toolkit-vscode
