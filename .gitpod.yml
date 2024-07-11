@@ -1,0 +1,10 @@
+tasks:
+  - name: prereq
+    before: |
+      source /workspace/aws-networking/bin/installtf
+      source /workspace/aws-networking/bin/tfalias
+      source /workspace/aws-networking/bin/installawscli
+vscode:
+  extensions:
+    - amazonwebservices.aws-toolkit-vscode
+    - hashicorp.terraform
