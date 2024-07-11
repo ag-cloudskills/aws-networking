@@ -3,7 +3,7 @@ tasks:
     before: |
       source ./bin/installtfcli
       source ./bin/tfalias
-      source ./bin/installawscli
+    #  source ./bin/installawscli
 vscode:
   extensions:
     - amazonwebservices.aws-toolkit-vscode
